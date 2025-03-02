@@ -1,0 +1,167 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Entire_document_1024px.png",
+        "test": "..\\bitmaps_test\\20250218-190905\\Entire_document_1024px.png",
+        "selector": "document",
+        "fileName": "Entire_document_1024px.png",
+        "label": "Entire document",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 1,
+        "url": "http://localhost:3001/index.html",
+        "referenceUrl": "https://mate-academy.github.io/layout_solutions/search-bar-airbnb/",
+        "expect": 0,
+        "viewportLabel": "1024px",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -56,
+            "height": -24
+          },
+          "rawMisMatchPercentage": 4.951690821256038,
+          "misMatchPercentage": "4.95",
+          "analysisTime": 19
+        },
+        "diffImage": "..\\bitmaps_test\\20250218-190905\\failed_diff_Entire_document_1024px.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Entire_document_720px.png",
+        "test": "..\\bitmaps_test\\20250218-190905\\Entire_document_720px.png",
+        "selector": "document",
+        "fileName": "Entire_document_720px.png",
+        "label": "Entire document",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 1,
+        "url": "http://localhost:3001/index.html",
+        "referenceUrl": "https://mate-academy.github.io/layout_solutions/search-bar-airbnb/",
+        "expect": 0,
+        "viewportLabel": "720px",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": -56,
+            "height": -24
+          },
+          "rawMisMatchPercentage": 5.411670775437024,
+          "misMatchPercentage": "5.41",
+          "analysisTime": 16
+        },
+        "diffImage": "..\\bitmaps_test\\20250218-190905\\failed_diff_Entire_document_720px.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Big_search_bar_data-qa_big_1024px.png",
+        "test": "..\\bitmaps_test\\20250218-190905\\Big_search_bar_data-qa_big_1024px.png",
+        "selector": "[data-qa=\"big\"]",
+        "fileName": "Big_search_bar_data-qa_big_1024px.png",
+        "label": "Big search bar data-qa_big",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 1,
+        "url": "http://localhost:3001/index.html",
+        "referenceUrl": "https://mate-academy.github.io/layout_solutions/search-bar-airbnb/",
+        "expect": 0,
+        "viewportLabel": "1024px",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -25
+          },
+          "rawMisMatchPercentage": 1.073517126148705,
+          "misMatchPercentage": "1.07",
+          "analysisTime": 9
+        },
+        "diffImage": "..\\bitmaps_test\\20250218-190905\\failed_diff_Big_search_bar_data-qa_big_1024px.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Big_search_bar_data-qa_big_720px.png",
+        "test": "..\\bitmaps_test\\20250218-190905\\Big_search_bar_data-qa_big_720px.png",
+        "selector": "[data-qa=\"big\"]",
+        "fileName": "Big_search_bar_data-qa_big_720px.png",
+        "label": "Big search bar data-qa_big",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 1,
+        "url": "http://localhost:3001/index.html",
+        "referenceUrl": "https://mate-academy.github.io/layout_solutions/search-bar-airbnb/",
+        "expect": 0,
+        "viewportLabel": "720px",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 25
+          },
+          "rawMisMatchPercentage": 1.5370813397129186,
+          "misMatchPercentage": "1.54",
+          "analysisTime": 9
+        },
+        "diffImage": "..\\bitmaps_test\\20250218-190905\\failed_diff_Big_search_bar_data-qa_big_720px.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Small_search_bar_data-qa_small_1024px.png",
+        "test": "..\\bitmaps_test\\20250218-190905\\Small_search_bar_data-qa_small_1024px.png",
+        "selector": "[data-qa=\"small\"]",
+        "fileName": "Small_search_bar_data-qa_small_1024px.png",
+        "label": "Small search bar data-qa_small",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 1,
+        "url": "http://localhost:3001/index.html",
+        "referenceUrl": "https://mate-academy.github.io/layout_solutions/search-bar-airbnb/",
+        "expect": 0,
+        "viewportLabel": "1024px",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -19
+          },
+          "rawMisMatchPercentage": 2.976190476190476,
+          "misMatchPercentage": "2.98",
+          "analysisTime": 7
+        },
+        "diffImage": "..\\bitmaps_test\\20250218-190905\\failed_diff_Small_search_bar_data-qa_small_1024px.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Small_search_bar_data-qa_small_720px.png",
+        "test": "..\\bitmaps_test\\20250218-190905\\Small_search_bar_data-qa_small_720px.png",
+        "selector": "[data-qa=\"small\"]",
+        "fileName": "Small_search_bar_data-qa_small_720px.png",
+        "label": "Small search bar data-qa_small",
+        "requireSameDimensions": false,
+        "misMatchThreshold": 1,
+        "url": "http://localhost:3001/index.html",
+        "referenceUrl": "https://mate-academy.github.io/layout_solutions/search-bar-airbnb/",
+        "expect": 0,
+        "viewportLabel": "720px",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 19
+          },
+          "rawMisMatchPercentage": 3.5534649776453056,
+          "misMatchPercentage": "3.55",
+          "analysisTime": 8
+        },
+        "diffImage": "..\\bitmaps_test\\20250218-190905\\failed_diff_Small_search_bar_data-qa_small_720px.png"
+      },
+      "status": "fail"
+    }
+  ]
+});
